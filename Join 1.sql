@@ -19,6 +19,10 @@ desc q1
 select * from q1;
 select * from q2;
 
+
+----Hi tommorow is my birthday 
+
+
 --inner join
 select * from q1 inner join q2 on q1.aid = q2.aid 
 
