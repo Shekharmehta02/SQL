@@ -120,3 +120,6 @@ select * from EMP_new
 select * from emp_new,job where emp_new.id =job.id and emp_new.work = job.base and work in ('pune')
 
 select * from EMP_new  where work = 'pune'
+
+-- JUST FOR CHECHING
+
