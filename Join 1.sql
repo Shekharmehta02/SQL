@@ -1,5 +1,5 @@
  --v2
- 
+ --Again it is just validation only
  ----inner join
 create table q1 (aid int, e_name varchar(10));
 create table q2 (bid int, e_name varchar(10),aid int);
