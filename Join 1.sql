@@ -23,7 +23,8 @@ select * from q1 inner join q2 on q1.aid = q2.aid
 --select * from q1 inner join q2 on q1.aid = q2.aid or q1.name = q2.name
 
 --select * from q1 inner join q2 on  q1.name = q2.name
-
+-
+-Just checking 1
 select q1.aid,q1.name,bid from q1 inner join q2 on q1.aid = q2.aid
 
 --left 
@@ -58,7 +59,7 @@ select a1.eid, a1.name, a2.name as Manger from Self_JOIN a1, Self_JOIN a2 where 
 Select * from Q1,Q2 where Q1.AID = Q2.AID
 
 select * from Q1 join Q2 on Q1.AID = Q2.AID
-
+--Just checking 2
 --Cross Join:-  It is cartesian product.
 
 Select * from Q1 cross join Q2 Where Q1.AID = Q2.AID
